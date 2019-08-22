@@ -46,7 +46,7 @@ else:
 # Выходные данные:  Два целых числа — номер этажа и порядковый номер слева на этаже.
 
 print("Задание 3")
-room=15
+room=int(input("Вход: "))
 n=1
 k=room
 f=0
@@ -59,4 +59,4 @@ else:
         n = n + 1
     count = (k - 1) % n + 1
     floor = (k - count) // n + 1
-    print(f + floor,count)
+    print("Выход: ",f + floor,count)
